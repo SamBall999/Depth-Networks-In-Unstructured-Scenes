@@ -3,3 +3,17 @@ Final Year Research Project investigating the performance of monocular depth est
 
 
 ![Depth Estimation in Unstructured, Natural Scenes](alhashim_fieldsafe_1.png?raw=true "Depth Estimation in Unstructured, Natural Scenes")
+
+
+## Investigative Stages
+Three State of the Art depth estimation networks were analysed according to the following investigative phases:
+
+
+### Evaluation
+The first stage of the investigation details the development of a comprehensive evaluation pipeline designed to evaluate each depth network from a qualitative and quantitative perspective. 
+
+### Intepretation
+The second stage explores network behaviour and underlying depth network mechanisms in order to determine the challenges specific to unstructured environments and the network features more suited to these challenges. The results were interpreted through a saliency, statistical and comparative analysis.
+
+### Adaptation
+The final phase of the investigation includes an exploration into the possibility of using transfer learning to adapt existing networks from the structured to unstructured domain. Transfer learning was applied by finetuning specific layers of the depth network.
