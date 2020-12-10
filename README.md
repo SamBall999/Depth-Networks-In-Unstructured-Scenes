@@ -20,9 +20,9 @@ The final phase of the investigation includes an exploration into the possibilit
 
 
 
-## References
+## State of the Art
 The three depth networks investigated include:
 
-- DenseDepth [DenseDepth](https://github.com/ialhashim/DenseDepth) network by Alhashim et al. 
-- BTS network by Lee et al. 
-- VNL network by Yin et al. 
+- [DenseDepth](https://github.com/ialhashim/DenseDepth) network by Alhashim et al. 
+- [BTS](https://github.com/cogaplex-bts/bts/tree/master/pytorch) network by Lee et al. 
+- [VNL](https://github.com/YvanYin/VNL_Monocular_Depth_Prediction) network by Yin et al. 
