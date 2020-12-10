@@ -1,8 +1,8 @@
 ## Processing Raw Velodyne Data
 
-#### Install ROS Melodic on Ubuntu 18.04
+#### 1. Install ROS Melodic on Ubuntu 18.04
 
-#### Install velodyne library. 
+#### 2. Install velodyne library. 
 
 Check your installation as follows:
 
@@ -11,7 +11,7 @@ Check your installation as follows:
 ````
 
 
-#### Convert from velodyne_packets (velodyne_msgs/VelodyneScan) to velodyne_points (PointCloud2)
+#### 3. Convert from velodyne_packets (velodyne_msgs/VelodyneScan) to velodyne_points (PointCloud2)
 
 In four separate terminals, run, in order:
 
@@ -32,8 +32,12 @@ In four separate terminals, run, in order:
 ````
 
 
-#### Check subscriber and publishers nodes are correct as follows: 
+#### 4. Check subscriber and publishers nodes are correct as follows: 
 
 ```
     rostopic info /velodyne_points
+````
+
+```
+    rostopic info /velodyne_packets
 ````
