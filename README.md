@@ -26,3 +26,9 @@ The three depth networks investigated include:
 - [DenseDepth](https://github.com/ialhashim/DenseDepth) network by Alhashim et al. 
 - [BTS](https://github.com/cogaplex-bts/bts/tree/master/pytorch) network by Lee et al. 
 - [VNL](https://github.com/YvanYin/VNL_Monocular_Depth_Prediction) network by Yin et al. 
+
+
+## Results
+The VNL network was shown to be least effective in unstructured environments as it showed the greatest variability in accuracy.
+
+<img src="results.png" alt="The VNL network exhibits the largest error (RMSE) on the FieldSafe dataset." width="700"/>

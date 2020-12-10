@@ -1,7 +1,7 @@
 ## Extracting ACFR Image Data
 
 The ACFR image files were made available in binary format for optimisation purposes. To transform the images to png format, the ACFR custom-built libraries
-comma and snark were installed. The comma and snark libraries built by the Australian Centre for Field Robotics (ACFR) provide a suite of C++ functionality for robotics applications. 
+comma and snark were installed. The [comma](https://github.com/acfr/comma) and [snark](https://github.com/acfr/snark) libraries built by the Australian Centre for Field Robotics (ACFR) provide a suite of C++ functionality for robotics applications. 
 
 The following steps were followed for the extraction:
 
