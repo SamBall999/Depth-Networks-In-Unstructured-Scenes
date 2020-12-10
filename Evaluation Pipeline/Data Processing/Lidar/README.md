@@ -6,7 +6,7 @@ format contains only the raw UDP packet data and consequently requires significa
 ### Processing Raw Velodyne Data
 The first stage of the investigation details the development of a comprehensive evaluation pipeline designed to evaluate each depth network from a qualitative and quantitative perspective. Each depth network was evaluated on both the structured environment KITTI dataset and unstructured environment FieldSafe and ACFR datasets.
 
-![Depth Estimation in Unstructured, Natural Scenes](nodelet.png?raw=true "Depth Estimation in Unstructured, Natural Scenes")
+<img src="nodelet.png" alt="Your image title" width="250"/>
 
 ### Extracting PointCloud messages to PCD files
 The second stage explores network behaviour and underlying depth network mechanisms in order to determine the challenges specific to unstructured environments and the network features more suited to these challenges. The results were interpreted through a saliency, statistical and comparative analysis.
