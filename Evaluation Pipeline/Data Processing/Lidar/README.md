@@ -11,14 +11,14 @@ The first stage of the investigation details the development of a comprehensive 
 ### Extracting PointCloud messages to PCD files
 The second stage explores network behaviour and underlying depth network mechanisms in order to determine the challenges specific to unstructured environments and the network features more suited to these challenges. The results were interpreted through a saliency, statistical and comparative analysis.
 
-<img src="fieldsafe_pointcloud.png" alt="Extracted point cloud from the Velodyne HDL-32E lidar scanner on the FieldSAFE platform." width="600"/>
+<img src="fieldsafe_pointcloud.png" alt="Extracted point cloud from the Velodyne HDL-32E lidar scanner on the FieldSAFE platform." width="450"/>
 
 ### Projecting to Camera View
 The final phase of the investigation includes an exploration into the possibility of using transfer learning to adapt existing networks from the structured to unstructured domain. Transfer learning was applied by finetuning specific layers of the depth network.
 
-<img src="projected_lidar_final.png" alt="Projected lidar points onto left stereo image." width="700"/>
+<img src="projected_lidar_final.png" alt="Projected lidar points onto left stereo image." width="550"/>
 
 ### Converting to a 16-bit Grayscale Depth Image 
 In order to ensure compatibility with the evaluation pipeline, the projected lidar points were converted to the standard 16-bit greyscale depth format. The conversion was performed by multiplying each depth value by 256 and saving the image array as 16-bit integer values.
 
-<img src="projected_blank_grey.png" alt="Projected sparse depth values represented by 16-bit grayscale." width="700"/>
+<img src="projected_blank_grey.png" alt="Projected sparse depth values represented by 16-bit grayscale." width="550"/>
