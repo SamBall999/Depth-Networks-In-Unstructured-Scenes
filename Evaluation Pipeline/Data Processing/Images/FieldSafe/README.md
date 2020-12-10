@@ -1,4 +1,4 @@
-##Extracting FieldSafe Image Data
+## Extracting FieldSafe Image Data
 
 The FieldSAFE dataset utilised ROS (Robot Operating System) to record the sensor
 data, publishing all sensor data in the form of rosbags. 
