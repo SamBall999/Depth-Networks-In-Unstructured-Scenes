@@ -1,20 +1,20 @@
 ## Transforming Lidar Data 
 The LiDAR data for the FieldSafe dataset was recorded using a Velodyne HDL-32E lidar scanner and recorded as velodyne msgs/VelodyneScan ROS messages. This message
-format contains only the raw UDP packet data and consequently requires significant processing to bring structure to the data. A ROS nodelet from the velodyne pointcloud package was used to convert from raw Velodyne packets to PointCloud2 format. 
+format contains only the raw UDP packet data and consequently requires significant processing to bring structure to the data. 
 
 
 ### Processing Raw Velodyne Data
-The first stage of the investigation details the development of a comprehensive evaluation pipeline designed to evaluate each depth network from a qualitative and quantitative perspective. Each depth network was evaluated on both the structured environment KITTI dataset and unstructured environment FieldSafe and ACFR datasets.
+A ROS nodelet from the velodyne_pointcloud package was used to convert from raw Velodyne packets to PointCloud2 format.
 
 <img src="nodelet.png" alt="ROS nodelet structure to convert Velodyne scan data to PointCloud2 messages." width="700"/>
 
 ### Extracting PointCloud messages to PCD files
-The second stage explores network behaviour and underlying depth network mechanisms in order to determine the challenges specific to unstructured environments and the network features more suited to these challenges. The results were interpreted through a saliency, statistical and comparative analysis.
+The PointCloud2 messages were then converted to Point Cloud Data (PCD) format using the pcl_ros package.
 
 <img src="fieldsafe_pointcloud.png" alt="Extracted point cloud from the Velodyne HDL-32E lidar scanner on the FieldSAFE platform." width="450"/>
 
 ### Projecting to Camera View
-The final phase of the investigation includes an exploration into the possibility of using transfer learning to adapt existing networks from the structured to unstructured domain. Transfer learning was applied by finetuning specific layers of the depth network.
+The final step in the lidar processing pipeline was to project the 3D lidar point cloud onto the relevant camera view.
 
 <img src="projected_lidar_final.png" alt="Projected lidar points onto left stereo image." width="550"/>
 

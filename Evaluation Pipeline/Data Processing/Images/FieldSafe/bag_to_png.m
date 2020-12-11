@@ -1,7 +1,7 @@
 %Script to convert ROS image messages to png format
 %Implemented using MATLAB R2020a and MATLAB ROS Toolbox
 
-bag = rosbag("2016-10-25-11-41-21_example.bag) %create rosbag object
+bag = rosbag("2016-10-25-11-41-21_example.bag"); %create rosbag object
 bagselect1 = select(bag, 'Topic', '/Multisense/left/image_rect_color') %select topic containing left stereo images
 msgs= readMessages(bagselect1, 1:100); %select 100 messages at a time due to memory constraints
 for j=1:100  %for each image message

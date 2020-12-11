@@ -9,4 +9,4 @@ The following steps were followed for the extraction:
 
 - In order for a fair comparison with the FieldSafe dataset, only the front view from the panospheric Ladybug camera was extracted for analysis.
 
-- Images from the almond subset were extracted from binary to png format through the bash commands and relevant library utilities as outlined in ...
+- Images from the almond subset were extracted from binary to png format through the bash commands and relevant library utilities as outlined below.

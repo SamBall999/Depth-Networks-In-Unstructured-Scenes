@@ -10,7 +10,7 @@ Three State of the Art depth estimation networks were analysed according to the 
 
 
 ### Evaluation
-The first stage of the investigation details the development of a comprehensive evaluation pipeline designed to evaluate each depth network from a qualitative and quantitative perspective. Each depth network was evaluated on both the structured environment KITTI dataset and unstructured environment FieldSafe and ACFR datasets.
+The first stage of the investigation details the development of a comprehensive evaluation pipeline designed to evaluate each depth network from a qualitative and quantitative perspective. Each depth network was evaluated on both the structured environment [KITTI](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_prediction) dataset and unstructured environment [FieldSafe](https://vision.eng.au.dk/fieldsafe/) and [ACFR](http://data.acfr.usyd.edu.au/ag/2017-orchards-and-dairy-obstacles/) datasets.
 
 ### Intepretation
 The second stage explores network behaviour and underlying depth network mechanisms in order to determine the challenges specific to unstructured environments and the network features more suited to these challenges. The results were interpreted through a saliency, statistical and comparative analysis.
